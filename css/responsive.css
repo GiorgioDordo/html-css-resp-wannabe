@@ -1,43 +1,18 @@
 @media screen and (max-width: 1160px) {
-    body{
-        overflow-x: hidden;
-    }
-
     .container {
-        max-width: 100%;
+        width: 100%;
+        max-width: 1140px;
     }
 }
 
 @media screen and (max-width: 768px) {
-
-    body{
-        overflow-x: hidden;
-    }
-
     .container {
-        max-width: 100%;
+        width: 100%;
     }
 
 }
 
 @media screen and (max-width: 576px) {
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        display: inline;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-    }
 
     .steps {
         margin-bottom: 0;
@@ -52,42 +27,19 @@
 
     .container {
         max-width: 100%;
-        margin: 0 auto;
     }
 
     .row {
         flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+        gap: 10px;
     }
 
     .col {
         padding: 0;
     }
 
-    .lessons .col {
+    .row .col {
         width: 100%;
     }
-
-    .steps .col {
-        width: 100%;
-    }
-    
-    .why-us .col {
-        width: 100%;
-    }
-
-    img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-    }
-
-    .col-left {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
-
 
 }
